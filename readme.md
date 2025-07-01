@@ -7,3 +7,4 @@ This project uses and is inspired from the Youtube tutorial from [Traversy Media
 
 How to actually run the project:
 (Ignoring exercise-materials folder), simply just go to index.html, copy the link (should be something similar like https://github.com/rosegoldnini/main/index.html) and then paste the link onto this website https://htmlpreview.github.io  in order to run it
+Or another, easier option is go through this deployed website via Netlify: https://steady-frangollo-c23bb7.netlify.app 
