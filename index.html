@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/task-manager-example-logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="main-menu">
+          <ul>
+           <li>
+            <a href="#">Home</a>
+           </li>
+           <li>
+            <a href="#">Pricing</a>
+           </li>
+           <li>
+            <a href="#">About</a>
+           </li>
+           <li>
+            <a href="#">FAQ</a>
+           </li>
+           <li>
+            <a class="btn btn-primary" href="#">Get Started</a>
+           </li>
+          </ul>
+        </div>
+        <!--Hamburger Button-->
+        <button class="hamburger-button">
+          <div class="hamburger-line"></div>
+        </button>
+        <!--Mobile Menu-->
+        <div class="mobile-menu">
+          <ul>
+           <li>
+            <a href="index.html">Home</a>
+           </li>
+           <li>
+            <a href="#">Pricing</a>
+           </li>
+           <li>
+            <a href="#">About</a>
+           </li>
+           <li>
+            <a class="btn btn-light" href="#">
+             <a class="btn btn-primary" href="#">Get Started</a>
+            </a>
+           </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Streamline Your Team's Productivity</h1>
+                    <p class="hero-subtitle">
+                        Organize, collaborate and track progress seamlessly with our
+                        comprehensive task management solution designed for modern teams.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i>
+                            Start Free Trial
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-play"></i>
+                            Watch Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/task-manager-dashboard.png" alt="Task Manager Dashboard" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Companies</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1M+</div>
+                    <div class="stat-label">Tasks Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Productivity Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Features-->
+<section id="features" class="features">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">See OCTOM in Action</h2>
+      <p class="section-subtitle">
+        Real screenshots from our actual product showing how teams collaborate,
+        manage tasks and track progress every day.
+      </p>
+    </div>
+    <div class="features-grid">
+      <!--Feature 1-->
+      <div class="feature-card feature-messaging">
+        <div class="feature-image-container">
+          <div class="feature-overlay">
+            <div class="feature-icon">
+                <i class="fas fa-comments"></i>
+            </div>
+          </div>
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Team Messaging & Collaboration</h3>
+          <p class="feature-description">
+            Keep your team connected with real time messaging, file sharing
+            and seamless communication all in one place.
+          </p>
+          <div class="feature-highlights">
+            <span class="highlight-tag">Real-time Chat</span>
+            <span class="highlight-tag">File Attachments</span>
+            <span class="highlight-tag">Team Channels</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 2-->
+      <div class="feature-card feature-tasks">
+        <div class="feature-image-container">
+          <div class="feature-overlay">
+            <div class="feature-icon">
+                <i class="fas fa-tasks"></i>
+            </div>
+          </div>
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Visual Task Management</h3>
+          <p class="feature-description">
+            Organize your workflow with beautiful visual task boards, drag and drop
+            functionality and visual progress tracking.
+          </p>
+          <div class="feature-highlights">
+            <span class="highlight-tag">Visual Boards</span>
+            <span class="highlight-tag">Drag & Drop</span>
+            <span class="highlight-tag">Progress Tracking</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="feature-card feature-timeline">
+        <div class="feature-image-container">
+          <div class="feature-overlay">
+            <div class="feature-icon">
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">Project Timeline & Planning</h3>
+          <p class="feature-description">
+            Plan projects with interactive timelines, track milestones
+            and visualize progress with comprehensive reporting.
+          </p>
+          <div class="feature-highlights">
+            <span class="highlight-tag">Timeline View</span>
+            <span class="highlight-tag">Milestones</span>
+            <span class="highlight-tag">Progress Charts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="feature-card feature-files">
+        <div class="feature-image-container">
+          <div class="feature-overlay">
+            <div class="feature-icon">
+                <i class="fas fa-file-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="feature-content">
+          <h3 class="feature-title">File Management & Sharing</h3>
+          <p class="feature-description">
+            Store, share and collaborate on files securely with version control
+            and easy access for your entire team.
+          </p>
+          <div class="feature-highlights">
+            <span class="highlight-tag">File Storage</span>
+            <span class="highlight-tag">Version Control</span>
+            <span class="highlight-tag">Secure Sharing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Industry Solutions -->
+    <section class="industry bg-light">
+      <div class="container-sm">
+        <h3 class="text-xl text-center">Industry Solutions</h3>
+        <p class="section-subtitle text-center" style="margin-bottom: 2rem;">
+          Discover how OCTOM adapts to your industry's unique challenges and workflows
+        </p>
+        <ul class="industry-menu">
+          <li class="active">All Industries</li>
+          <li>Technology</li>
+          <li>Marketing</li>
+          <li>Consulting</li>
+        </ul>
+        <div class="industry-content">
+          <div class="industry-group">
+            <div class="industry-group-header">
+              <h4 class="text-md">
+                Software Development Teams - Agile project management made simple
+              </h4>
+              <i class="fas fa-minus"></i>
+            </div>
+            <div class="industry-group-body open">
+              <p>
+                Perfect for dev teams using Agile/Scrum methodologies. Track sprints, manage backlogs, 
+                integrate with GitHub/GitLab and monitor code deployment pipelines. Built in time tracking 
+                for accurate project estimates and developer productivity insights.
+              </p>
+            </div>
+          </div>
+
+          <div class="industry-group">
+            <div class="industry-group-header">
+              <h4 class="text-md">
+                Marketing Agencies - Campaign management & client collaboration
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="industry-group-body">
+              <p>
+                Streamline campaign workflows from strategy to execution. Manage multiple client projects, 
+                collaborate on creative assets, track campaign performance and provide clients with 
+                real time project visibility. Includes campaign templates and approval workflows.
+              </p>
+            </div>
+          </div>
+
+          <div class="industry-group">
+            <div class="industry-group-header">
+              <h4 class="text-md">
+                Consulting Firms - Client project delivery & resource allocation
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="industry-group-body">
+              <p>
+                Optimize consultant utilization across multiple client engagements. Track billable hours, 
+                manage project budgets, create professional client reports and maintain project documentation. 
+                Resource planning tools prevent overallocation and ensure profitable projects.
+              </p>
+            </div>
+          </div>
+
+          <div class="industry-group">
+            <div class="industry-group-header">
+              <h4 class="text-md">
+                Construction & Engineering - Project coordination & compliance tracking
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="industry-group-body">
+              <p>
+                Coordinate complex construction projects with timeline dependencies, resource scheduling, 
+                and compliance documentation. Track permits, inspections and safety protocols while 
+                maintaining clear communication between contractors, architects and clients.
+              </p>
+            </div>
+          </div>
+
+          <div class="industry-group">
+            <div class="industry-group-header">
+              <h4 class="text-md">
+                Educational Institutions - Academic project & research management
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="industry-group-body">
+              <p>
+                Manage academic projects, research initiatives and administrative tasks. Coordinate 
+                between faculty, students, and departments. Track research progress, manage academic 
+                calendars and facilitate collaboration on educational content development.
+              </p>
+            </div>
+          </div>
+
+          <div class="industry-group">
+            <div class="industry-group-header">
+              <h4 class="text-md">
+                Healthcare Organizations - Patient care coordination & compliance
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="industry-group-body">
+              <p>
+                Streamline healthcare operations while maintaining HIPAA compliance. Coordinate patient care 
+                workflows, manage medical equipment maintenance, track compliance requirements and facilitate 
+                communication between healthcare teams and departments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials-->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" style="color: #fff;">What Our Customers Say</h2>
+                <p class="section-subtitle" style="color: #cbd5e1;">
+                    Join thousands of teams who trust OCTOM to manage their projects and boost productivity.
+                </p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "OCTOM has transformed how our team collaborates. The intuitive interface 
+                        and powerful features have increased our productivity by 40%."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MS</div>
+                        <div class="author-info">
+                            <h4>Mary Smith</h4>
+                            <p>Project Manager at Cardinal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "The timeline view and task dependencies feature have made project planning 
+                        so much clearer. We can't imagine working without OCTOM now."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CL</div>
+                        <div class="author-info">
+                            <h4>Carson Lee</h4>
+                            <p>CEO at Blue Door</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "The analytics dashboard provides incredible insights into our team's performance.
+                        It's helped us optimize our workflow and deliver projects faster."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DW</div>
+                        <div class="author-info">
+                            <h4>Daniel Wilson</h4>
+                            <p>Operations Director at Nexuz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand-wrapper">
+        <a href="index.html" class="footer-brand">
+          <img src="images/task-manager-example-logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="footer-links">
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Process</a></li>
+            <li><a href="#">Join Our Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Recent Projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="#">hi@octom.com</a></li>
+            <li class="social-links">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

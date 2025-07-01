@@ -1,0 +1,674 @@
+* {
+  box-sizing: border-box; /* Reset box-sizing */
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #4891ff; /* Primary color for buttons and links */
+  --light-color: #f4f4f6;
+  --dark-color: #111;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+a { /* Reset link styles */
+  text-decoration: none;
+  color: #333;
+}
+
+ul { /* Reset list styles */
+  list-style: none;
+}
+
+img { /* Reset image styles */
+  max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  background: #fff;
+  padding: 20px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #4891ff; /* Primary color for the theme */
+    --light-color: #f4f4f6; /* Light background color */
+    --dark-color: #111; /* Dark text color */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Navbar*/
+.navbar {
+    background: #fff;
+    padding: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; /*pushed the items to the edges*/
+    align-items: center; /*centered the items vertically*/
+}
+
+.navbar .main-menu ul {
+    display: flex; /*display the menu items in a row*/
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block; /*make the link fill the entire area*/
+    font-weight: 600;
+    transition: 0.5s; /*transition for hover effect to smoothly fade into*/
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color); /*change color on hover*/
+}
+
+.navbar ul li a i {
+    margin-right: 10px;
+}
+
+.navbar ul li:last-child a {
+    margin-left: 10px;
+}
+
+/*Hero section which is the main section of the page*/
+.hero {
+    margin-bottom: 50px;
+}
+
+.hero .container {
+    background: url('../images/hero-bg.png') no-repeat; /*background image for the hero section*/
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+}
+
+.hero .hero-content {
+    width: 70%;
+}
+
+.hero .hero-text {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/*Utility  Classes*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;/*left,right*/ /*center the container*/
+    padding: 0 15px; /*add padding to the left and right*/
+}
+
+.container-sm {
+    max-width: 600px; /*a smaller container for specific sections*/
+    margin: 0 auto; /*centering the smaller container*/
+    padding: 0 15px; /*add padding to the left and right*/
+}
+
+/*Buttons*/
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    background: var(--light-color);
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px; /*rounded corners*/
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btn-dark {
+    background: var(--dark-color);
+    color: #fff;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/*Text Classes*/
+.text-xxl {
+    font-size: 3rem; /*extra extra large text, 16x3*/
+    line-height: 1.2; /*line height for better readability*/
+    font-weight: 600; /*bold text*/
+    margin:40px 0 20px; /*margin for spacing*/
+}
+
+.text-xl {
+    font-size: 2.2rem; /*extra extra large text, 16x3*/
+    line-height: 1.4; /*line height for better readability*/
+    font-weight: normal;
+    margin:40px 0 20px; /*margin for spacing*/
+}
+
+.text-lg {
+    font-size: 1.8rem; /*large text, 16x1.8*/
+    line-height: 1.4; /*line height for better readability*/
+    font-weight: normal;
+    margin:30px 0 20px; /*margin for spacing*/
+}
+
+.text-md {
+    font-size: 1.2rem; /*medium text, 16x1.2*/
+    line-height: 1.4; /*line height for better readability*/
+    font-weight: normal;
+    margin:20px 0 10px; /*margin for spacing*/
+}
+
+.text-sm {
+    font-size: 0.9rem; /*medium text, 16x0.9*/
+    line-height: 1.4; /*line height for better readability*/
+    font-weight: normal;
+    margin:10px 0 5px; /*margin for spacing*/
+}
+
+.text-center {
+    text-align: center; /*center the text*/
+}
+.navbar .container {
+  display: flex; /* Flexbox for layout and is in container child class */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .main-menu ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 10px 20px; /* top, bottom, left, right */
+  display: block; /* Make links block elements */
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover { /* Hover effect for links using mouse */
+  color: var(--primary-color);
+}
+
+.navbar ul li a i {
+  margin-right: 10px;
+}
+
+.navbar ul li:last-child a { /* Last item in the navbar */
+  margin-left: 10px;
+}
+
+/* Hero */
+.hero { /*Hero secction means that this is the main section of the page */
+  margin-bottom: 50px;
+}
+
+.hero .container { /*Image background for the hero section */
+  background: url('../images/hero-bg.png') no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  height: 550px;
+}
+
+.hero .hero-content {
+  width: 70%;
+}
+
+.hero .hero-text {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+/* Video */
+.video {
+  padding: 10px 0 40px;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-preview {
+  margin-bottom: 20px;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 40px 0;
+}
+
+.testimonials .testimonials-heading {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
+  gap: 30px;
+}
+
+.testimonials .card p:nth-child(2) {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* Pricing */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.pricing .pricing-card-subheading {
+  margin-bottom: 30px;
+}
+
+.pricing .pricing-card-price {
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.pricing ul {
+  margin: 30px 0;
+}
+
+.pricing ul li {
+  margin-bottom: 20px;
+}
+
+.pricing ul li i {
+  margin-right: 10px;
+}
+
+.pricing .pricing-footer {
+  margin: 30px 0;
+}
+
+/* FAQ */
+.faq {
+  padding: 40px 0;
+}
+
+.faq-group {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.faq .faq-group .faq-group-header {
+  padding: 20px 0;
+  margin-bottom: 15px;
+  position: relative; /* Position relative for the icon  meaning that it is in the header */
+}
+
+.faq .faq-group .faq-group-header h4 {
+  font-weight: 600;
+  width: 95%;
+}
+
+.faq .faq-group .faq-group-header i {
+  position: absolute; /* Position absolute for the icon */
+  right: 0;
+  top: 35px; /* Center the icon vertically */
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.faq .faq-group .faq-group-body {
+  display: none; /* Hide the body by default */
+}
+
+.faq .faq-group .faq-group-body.open{ /*no space between open and . because it is a class */
+  display:block; /* Show the body when open */
+}
+
+.faq ul.faq-menu {
+  max-width: 400px; /* Limit the width of the FAQ menu */
+  margin: auto; /* Center the FAQ menu */
+  display: flex;
+  justify-content: space-between; /* Space between the items */
+  align-items: center; /* Center the items vertically */
+  background: #ddd;
+  padding: 10px 20px;
+  border-radius: 10px; /* Rounded corners for the FAQ menu */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq ul.faq-menu li {
+  padding: 10px 20px; /* Padding for the FAQ menu items */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.faq ul.faq-menu li.active {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  padding: 40px 0;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  line-height: 2.5;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.footer i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .card {
+  margin: 20px 30px 30px 0;
+}
+
+.fotter input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+/* Utility Classes */
+.container { /* Main container for layout and that means it is basics */
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-sm { /* Smaller container for specific sections */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  background: var(--light-color);
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Text Classes */
+.text-xxl {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.text-xl {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 40px 0 20px;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 30px 0 20px;
+}
+
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 20px 0 10px;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 10px 0 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Background */
+.bg-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-black{
+  background: #000;
+  color: #fff;
+}
+
+/* Hamburger Button */
+.hamburger-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+.hamburger-button .hamburger-line {
+  width: 30px;
+  height: 3px;
+  background: #333;
+  margin: 6px 0; /* Space between lines */
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Start off-screen */
+  width: 250px;
+  height: 100%;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out; /* Smooth transition for sliding in */
+}
+
+.mobile-menu.active {
+  right: 0;
+}
+
+.mobile-menu ul {
+  margin-top: 100px;
+  padding-right: 10px;
+}
+
+.mobile-menu ul li {
+  padding: 10px 0px;
+}
+
+.mobile-menu ul li a {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+  .text-xxl {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width: 670px) {
+  .navbar .main-menu {
+    display: none;
+  }
+
+  .navbar .hamburger-button {
+    display: block;
+  }
+
+  .hero .container {
+    background: url('../images/hero-bg-mobile.png') no-repeat; /* Mobile background image for the hero section */
+    background-size: 350px 400px;
+    background-position: bottom;
+    height: 770px;
+  }
+
+  .hero .hero-content,
+  .hero .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero .hero-buttons .btn {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  }
+
+  .testimonials .testimonials-heading {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .testimonials .testimonials-grid,
+  .pricing .pricing-grid,
+  .footer .footer-grid {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
+
+  .footer .card {
+    margin-right: 0; /* Remove right margin for mobile */
+  }
+
+  .footer .footer-grid > div {
+    text-align: center; /* Center text in footer grid */
+  }
+
+  /*Text*/
+  .text-xl {
+    font-size: 1.9rem;
+  }
+
+  .text-lg {
+    font-size: 1.5rem;
+  }
+
+  .text-md {
+    font-size: 1.1rem;
+  }
+}
+
+@media(max-width: 500px) {
+  .text-xxl {
+    font-size: 2rem;
+  }
+}
+
+
+
